@@ -1,0 +1,42 @@
+{
+  "application_sha256": {
+    "onboarding/__init__.py": "8871a2d49c119859643059a0562f8bf2ca9edeaac9fcfbcd4c2f1975dcff3730",
+    "onboarding/checker.py": "48ecdc664aa54f6d964258ef50711628451df5021f892fec7f222cf2a13dd095",
+    "onboarding/engine.py": "90a3c821da34bcc5df4f9e1c6a874e18ca550a5e2fe57302280ebf8203a063fe",
+    "onboarding/planner.py": "c90b58be90479e003f13ae965477fe49579ee10d42180104a165c573d858958e",
+    "onboarding/server.py": "7dee84c2c62843409565372073dc5bb1636b6297089c0dde72514664cfb65f56",
+    "onboarding/store.py": "2695809670e202115bcd3abf1ca344a6f871c5e9a5763763aca62c15753ecbca",
+    "onboarding/worker.py": "3149a080bb3f8466233c85c13f76180b50f1cc0daf21253c584d9a4ddfc33489",
+    "run.py": "d88f9d062ff73a2d51138198f1ae6a168070d5f6a0cb60ade4aedd8e1ea8c3e2",
+    "web/app.js": "0259d6f1cb35bb342f046e8ea5db099fa3c4e52f65c99df76f7c6dae39aa8c4d",
+    "web/apps.html": "7092652f2775f6675991abe2eb731d00fa48eced83053babc35f0f7cbd059b3d",
+    "web/index.html": "bad9734be86a19ec3fcd365f1956fb5f6c6d99017f55b249f0e17d8d5fda1c9e",
+    "web/style.css": "c5eda4e5a80b8ee938cc770d8d72cad7fb110185e9ab8b2397a3530bc1210076"
+  },
+  "command": "python -m unittest discover -s tests -v",
+  "completed_at_utc": "2026-10-14T05:02:29.492561+00:00",
+  "elapsed_seconds": 9.919,
+  "errors": 0,
+  "exit_code": 0,
+  "failures": 0,
+  "interpreter": "Python 3.14.7",
+  "isolated_browser_smoke": {
+    "checks": [
+      "Created two requests and switched between them without resetting records.",
+      "Switched requests while the original case worker ran; its writes retained the original employee.",
+      "390px browser viewport had no horizontal overflow; no JavaScript errors."
+    ],
+    "completed_at_utc": "2026-10-14T05:02:29.492561+00:00",
+    "result": "PASS",
+    "scope": "Isolated temporary sandbox databases. Provider failure/success were test fixtures, not live model evaluations."
+  },
+  "output": "test_changed_source_marks_old_check_stale_and_reopens_completed_request (test_onboarding.OnboardingIntegrationTests.test_changed_source_marks_old_check_stale_and_reopens_completed_request) ... ok\ntest_checker_detects_extra_rights_and_correction_requires_approval (test_onboarding.OnboardingIntegrationTests.test_checker_detects_extra_rights_and_correction_requires_approval) ... ok\ntest_checker_process_does_not_modify_runtime_database (test_onboarding.OnboardingIntegrationTests.test_checker_process_does_not_modify_runtime_database) ... ok\ntest_completion_refused_before_accounts_exist (test_onboarding.OnboardingIntegrationTests.test_completion_refused_before_accounts_exist) ... ok\ntest_concurrent_duplicate_reference_produces_one_saved_account (test_onboarding.OnboardingIntegrationTests.test_concurrent_duplicate_reference_produces_one_saved_account) ... ok\ntest_full_onboarding_has_exact_rights_and_independent_completion (test_onboarding.OnboardingIntegrationTests.test_full_onboarding_has_exact_rights_and_independent_completion) ... ok\ntest_policy_change_invalidates_only_affected_approval (test_onboarding.OnboardingIntegrationTests.test_policy_change_invalidates_only_affected_approval) ... ok\ntest_real_crash_after_write_reconciles_without_duplicate_account (test_onboarding.OnboardingIntegrationTests.test_real_crash_after_write_reconciles_without_duplicate_account) ... ok\ntest_request_text_cannot_invent_authority (test_onboarding.OnboardingIntegrationTests.test_request_text_cannot_invent_authority) ... ok\ntest_sensitive_provision_write_cannot_bypass_manager_grant (test_onboarding.OnboardingIntegrationTests.test_sensitive_provision_write_cannot_bypass_manager_grant) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 9.702s\n\nOK\n",
+  "result": "PASS",
+  "schema_version": 1,
+  "scope": "Local test fixtures; live provider performance is not evaluated by this suite.",
+  "suite": "unittest discovery",
+  "test_sha256": {
+    "tests/test_onboarding.py": "5629dfafd68d745875a4bae7c9b273a1e59d3fc14a2e1b8225bb863b98a5f2b8"
+  },
+  "tests_run": 10
+}
