@@ -6,7 +6,7 @@ The completed suite passed **10 tests** with no failures or errors. Tests use pe
 
 ## Recorded evidence
 
-[The edited 1:53 reference-mode video](../submission/demo.mp4) shows a CRM-only reapproval, saved Directory account after worker exit, one reference reconciliation, four checked application accounts, and detection and correction of an extra admin permission. It uses synthetic narration over actual browser capture.
+[The edited 1:53 reference-mode video](https://drive.google.com/file/d/147FlCRrvrBMWWdlKeJVysy1kzfbYsRTd/view) shows a CRM-only reapproval, saved Directory account after worker exit, one reference reconciliation, four checked application accounts, and detection and correction of an extra admin permission. It uses synthetic narration over actual browser capture.
 
 One separate live Claude interpretation returned the approved requested role with tools disabled and no fallback. This is a successful smoke check, not a measured accuracy rate. The video itself does not contain a live inference call.
 

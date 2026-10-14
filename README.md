@@ -4,9 +4,9 @@
 
 A workplace operator that provisions a new colleague's exact approved role access across four persistent sandbox applications: Directory, CRM, Docs, and Helpdesk. Sensitive groups require a manager's grant. Policy changes refresh only affected groups. A separate checker refuses completion until every required account has the right permissions and no additions.
 
-[Demo video](submission/demo.mp4) · [Audio](submission/demo-narration.mp3) · [Validation](docs/VALIDATION.md)
+[Demo video](https://drive.google.com/file/d/147FlCRrvrBMWWdlKeJVysy1kzfbYsRTd/view) · [Validation](docs/VALIDATION.md)
 
-![Actual workspace](submission/overview.png)
+![Actual workspace](docs/assets/overview.png)
 
 The cover is illustrative; the workspace is an actual screenshot. The 1:53 demo is an edited reference-planner capture of fictional apps, with synthetic Kokoro af_heart narration. A separate live Claude role-interpretation smoke check succeeded.
 
